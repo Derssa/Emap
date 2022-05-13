@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("../public/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+}
+body img {
+  width: 16%;
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+}
+.body {
+  margin-top: -170px;
+  padding-left: 250px;
+}
+svg g .st12 {
+  fill: #cccccc;
+}
+svg g .st12:hover {
+  fill: #a8a8a8;
+}
+text {
+  pointer-events: none;
+}
+@media (max-width: 1300px) {
+  .body {
+    margin-top: -70px;
+    padding-left: 250px;
+  }
+  body img {
+    width: 16%;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+  }
+}
+@media (max-width: 1000px) {
+  .body {
+    margin-top: -10px;
+    padding-left: 250px;
+  }
+  body img {
+    width: 16%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+}
+@media (max-width: 900px) {
+  .body {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  body img {
+    width: 150px;
+    position: absolute;
+    top: 14%;
+    left: 43%;
+  }
+}
+@media (max-width: 750px) {
+  .body {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  body img {
+    width: 130px;
+    position: absolute;
+    top: 12%;
+    left: 41%;
+  }
+}
+@media (max-width: 550px) {
+  .body {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  body img {
+    width: 120px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+}
+@media (max-width: 450px) {
+  .body {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  body img {
+    width: 100px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .body {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  body img {
+    width: 80px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+}
+@media (max-width: 320px) {
+  .body {
+    margin-top: 25px;
+    padding-left: 0px;
+  }
+  body img {
+    width: 70px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+}
